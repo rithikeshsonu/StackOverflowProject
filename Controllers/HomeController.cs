@@ -16,6 +16,7 @@ namespace StackOverflowProject.Controllers
             this.qs = qs;
         }
         // GET: Home
+        //Index Controller
         public ActionResult Index()
         {
             List<QuestionViewModel> questions = this.qs.GetQuestions().Take(10).ToList();
