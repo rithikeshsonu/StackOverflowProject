@@ -1,0 +1,27 @@
+﻿body {
+}
+.navbar{
+    background-color: #546a6a;
+}
+#active{
+    color: yellow !important;
+}
+.navbar a:link,.navbar a:visited{
+    color: white !important;
+}
+.navbar a:hover{
+    color:darkgoldenrod !important;
+    text-decoration: underline;
+}
+.dropdown-menu a:hover{
+    color: black !important;
+}
+.hidden{
+    display: none;
+}
+.jumbotron {
+padding: 2rem 1rem;
+margin-bottom: 2rem;
+background-color: #e9ecef;
+border-radius: .3rem;
+}
